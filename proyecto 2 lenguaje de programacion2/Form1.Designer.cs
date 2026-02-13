@@ -1,4 +1,5 @@
-﻿namespace proyecto_2_lenguaje_de_programacion2
+﻿
+namespace proyecto_2_lenguaje_de_programacion2
 {
     partial class Form1
     {
@@ -77,26 +78,28 @@
             toolStripMenuItem3.Name = "toolStripMenuItem3";
             toolStripMenuItem3.Size = new Size(180, 22);
             toolStripMenuItem3.Text = "2";
+            toolStripMenuItem3.Click += toolStripMenuItem3_Click;
             // 
             // toolStripMenuItem4
             // 
             toolStripMenuItem4.Name = "toolStripMenuItem4";
             toolStripMenuItem4.Size = new Size(180, 22);
             toolStripMenuItem4.Text = "3";
+            toolStripMenuItem4.Click += toolStripMenuItem4_Click;
             // 
             // toolStripMenuItem5
             // 
             toolStripMenuItem5.Name = "toolStripMenuItem5";
             toolStripMenuItem5.Size = new Size(180, 22);
             toolStripMenuItem5.Text = "4";
-            toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click_Custom);
+            toolStripMenuItem5.Click += toolStripMenuItem5_Click;
             // 
             // toolStripMenuItem6
             // 
             toolStripMenuItem6.Name = "toolStripMenuItem6";
             toolStripMenuItem6.Size = new Size(180, 22);
             toolStripMenuItem6.Text = "5";
-            toolStripMenuItem6.Click += toolStripMenuItem6_Click_1;
+            toolStripMenuItem6.Click += toolStripMenuItem6_Click;
             // 
             // toolStripMenuItem7
             // 
@@ -115,54 +118,63 @@
             toolStripMenuItem9.Name = "toolStripMenuItem9";
             toolStripMenuItem9.Size = new Size(180, 22);
             toolStripMenuItem9.Text = "8";
+            toolStripMenuItem9.Click += toolStripMenuItem9_Click;
             // 
             // toolStripMenuItem10
             // 
             toolStripMenuItem10.Name = "toolStripMenuItem10";
             toolStripMenuItem10.Size = new Size(180, 22);
             toolStripMenuItem10.Text = "9";
+            toolStripMenuItem10.Click += toolStripMenuItem10_Click;
             // 
             // toolStripMenuItem11
             // 
             toolStripMenuItem11.Name = "toolStripMenuItem11";
             toolStripMenuItem11.Size = new Size(180, 22);
             toolStripMenuItem11.Text = "10";
+            toolStripMenuItem11.Click += toolStripMenuItem11_Click;
             // 
             // toolStripMenuItem12
             // 
             toolStripMenuItem12.Name = "toolStripMenuItem12";
             toolStripMenuItem12.Size = new Size(180, 22);
             toolStripMenuItem12.Text = "11";
+            toolStripMenuItem12.Click += toolStripMenuItem12_Click;
             // 
             // toolStripMenuItem13
             // 
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(180, 22);
             toolStripMenuItem13.Text = "12";
+            toolStripMenuItem13.Click += toolStripMenuItem13_Click;
             // 
             // toolStripMenuItem14
             // 
             toolStripMenuItem14.Name = "toolStripMenuItem14";
             toolStripMenuItem14.Size = new Size(180, 22);
             toolStripMenuItem14.Text = "13";
+            toolStripMenuItem14.Click += toolStripMenuItem14_Click;
             // 
             // toolStripMenuItem15
             // 
             toolStripMenuItem15.Name = "toolStripMenuItem15";
             toolStripMenuItem15.Size = new Size(180, 22);
             toolStripMenuItem15.Text = "14";
+            toolStripMenuItem15.Click += toolStripMenuItem15_Click;
             // 
             // toolStripMenuItem16
             // 
             toolStripMenuItem16.Name = "toolStripMenuItem16";
             toolStripMenuItem16.Size = new Size(180, 22);
             toolStripMenuItem16.Text = "15";
+            toolStripMenuItem16.Click += toolStripMenuItem16_Click;
             // 
             // toolStripMenuItem17
             // 
             toolStripMenuItem17.Name = "toolStripMenuItem17";
             toolStripMenuItem17.Size = new Size(180, 22);
             toolStripMenuItem17.Text = "16";
+            toolStripMenuItem17.Click += toolStripMenuItem17_Click;
             // 
             // Form1
             // 
@@ -178,12 +190,6 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private void toolStripMenuItem5_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private MenuStrip menuStrip1;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,14 @@ namespace proyecto_2_lenguaje_de_programacion2
         public Form5()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int.TryParse(textBox1.Text, out int val);
+            int.TryParse(textBox2.Text, out val);
+            label1 = textBox1 + textBox2;
+
         }
     }
 }

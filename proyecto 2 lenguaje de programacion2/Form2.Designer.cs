@@ -28,19 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            label1 = new Label();
             SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(194, 183);
+            label1.Name = "label1";
+            label1.Size = new Size(375, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Bienvenido al formulario de Jesus Enrique Ortiz Garcia MT-2024-00562";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label label1;
     }
 }
