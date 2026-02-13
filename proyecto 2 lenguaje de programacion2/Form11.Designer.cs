@@ -28,12 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form11";
+            dateTimePicker1 = new DateTimePicker();
+            label1 = new Label();
+            SuspendLayout();
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(281, 124);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 0;
+            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(358, 178);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 1;
+            label1.Text = "label1";
+            // 
+            // Form11
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(dateTimePicker1);
+            Name = "Form11";
+            Text = "Form11";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private DateTimePicker dateTimePicker1;
+        private Label label1;
     }
 }

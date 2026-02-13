@@ -16,5 +16,20 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(textBox1.Text, out int val))
+            {
+                MessageBox.Show("Correcto");
+
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hola soy Jesus Ortiz y mi matricula es MT-2024-00562");
+        }
     }
 }

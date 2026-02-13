@@ -16,5 +16,10 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            label1.Text = dateTimePicker1.Text;
+        }
     }
 }
