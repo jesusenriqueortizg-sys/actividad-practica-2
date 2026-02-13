@@ -16,5 +16,11 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+        int num = 0;
+        private void button1_Click(object sender, EventArgs e)
+        {      
+            num += 1;
+            label1.Text = num.ToString();
+        }
     }
 }

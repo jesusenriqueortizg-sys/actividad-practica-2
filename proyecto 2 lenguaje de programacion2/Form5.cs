@@ -20,9 +20,11 @@ namespace proyecto_2_lenguaje_de_programacion2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int.TryParse(textBox1.Text, out int val);
-            int.TryParse(textBox2.Text, out val);
-            label1 = textBox1 + textBox2;
+            int.TryParse(textBox1.Text, out int valor1);
+            int.TryParse(textBox2.Text, out int valor2);
+           string resultado = (valor1+valor2).ToString();
+            label1.Text = resultado;
+            
 
         }
     }

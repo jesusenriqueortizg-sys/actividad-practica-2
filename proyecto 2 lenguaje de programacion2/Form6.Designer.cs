@@ -28,12 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form6";
+            comboBox1 = new ComboBox();
+            SuspendLayout();
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.ImeMode = ImeMode.NoControl;
+            comboBox1.IntegralHeight = false;
+            comboBox1.ItemHeight = 15;
+            comboBox1.Items.AddRange(new object[] { "rojo", "verde", "azul" });
+            comboBox1.Location = new Point(310, 158);
+            comboBox1.MaxDropDownItems = 3;
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 0;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // Form6
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
+            Name = "Form6";
+            Text = "Form6";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private ComboBox comboBox1;
     }
 }

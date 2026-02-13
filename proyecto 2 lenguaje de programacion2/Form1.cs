@@ -35,14 +35,14 @@ namespace proyecto_2_lenguaje_de_programacion2
 
         private void toolStripMenuItem6_Click(object sender, EventArgs e)
         {
-            Form6 five = new Form6();
-            five.Show();
+            Form6 cinco = new Form6();
+            cinco.Show();
         }
 
         private void toolStripMenuItem7_Click(object sender, EventArgs e)
         {
-            Form7 six = new Form7();
-            six.Show();
+            Form7 seis = new Form7();
+            seis.Show();
         }
 
         private void toolStripMenuItem8_Click(object sender, EventArgs e)
@@ -103,6 +103,7 @@ namespace proyecto_2_lenguaje_de_programacion2
             Form15 fifteen = new Form15();
             fifteen.Show();
         }
+
     }
 }
 
