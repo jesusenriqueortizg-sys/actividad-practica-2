@@ -46,7 +46,6 @@ namespace proyecto_2_lenguaje_de_programacion2
             toolStripMenuItem14 = new ToolStripMenuItem();
             toolStripMenuItem15 = new ToolStripMenuItem();
             toolStripMenuItem16 = new ToolStripMenuItem();
-            toolStripMenuItem17 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +60,7 @@ namespace proyecto_2_lenguaje_de_programacion2
             // 
             // menuToolStripMenuItem
             // 
-            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6, toolStripMenuItem7, toolStripMenuItem8, toolStripMenuItem9, toolStripMenuItem10, toolStripMenuItem11, toolStripMenuItem12, toolStripMenuItem13, toolStripMenuItem14, toolStripMenuItem15, toolStripMenuItem16, toolStripMenuItem17 });
+            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3, toolStripMenuItem4, toolStripMenuItem5, toolStripMenuItem6, toolStripMenuItem7, toolStripMenuItem8, toolStripMenuItem9, toolStripMenuItem10, toolStripMenuItem11, toolStripMenuItem12, toolStripMenuItem13, toolStripMenuItem14, toolStripMenuItem15, toolStripMenuItem16 });
             menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             menuToolStripMenuItem.Size = new Size(50, 20);
             menuToolStripMenuItem.Text = "Menu";
@@ -98,85 +97,78 @@ namespace proyecto_2_lenguaje_de_programacion2
             // 
             toolStripMenuItem6.Name = "toolStripMenuItem6";
             toolStripMenuItem6.Size = new Size(180, 22);
-            toolStripMenuItem6.Text = "5";
+            toolStripMenuItem6.Text = "6";
             toolStripMenuItem6.Click += toolStripMenuItem6_Click;
             // 
             // toolStripMenuItem7
             // 
             toolStripMenuItem7.Name = "toolStripMenuItem7";
             toolStripMenuItem7.Size = new Size(180, 22);
-            toolStripMenuItem7.Text = "6";
+            toolStripMenuItem7.Text = "7";
             toolStripMenuItem7.Click += toolStripMenuItem7_Click;
             // 
             // toolStripMenuItem8
             // 
             toolStripMenuItem8.Name = "toolStripMenuItem8";
             toolStripMenuItem8.Size = new Size(180, 22);
-            toolStripMenuItem8.Text = "7";
+            toolStripMenuItem8.Text = "8";
             toolStripMenuItem8.Click += toolStripMenuItem8_Click;
             // 
             // toolStripMenuItem9
             // 
             toolStripMenuItem9.Name = "toolStripMenuItem9";
             toolStripMenuItem9.Size = new Size(180, 22);
-            toolStripMenuItem9.Text = "8";
+            toolStripMenuItem9.Text = "9";
             toolStripMenuItem9.Click += toolStripMenuItem9_Click;
             // 
             // toolStripMenuItem10
             // 
             toolStripMenuItem10.Name = "toolStripMenuItem10";
             toolStripMenuItem10.Size = new Size(180, 22);
-            toolStripMenuItem10.Text = "9";
+            toolStripMenuItem10.Text = "10";
             toolStripMenuItem10.Click += toolStripMenuItem10_Click;
             // 
             // toolStripMenuItem11
             // 
             toolStripMenuItem11.Name = "toolStripMenuItem11";
             toolStripMenuItem11.Size = new Size(180, 22);
-            toolStripMenuItem11.Text = "10";
+            toolStripMenuItem11.Text = "11";
             toolStripMenuItem11.Click += toolStripMenuItem11_Click;
             // 
             // toolStripMenuItem12
             // 
             toolStripMenuItem12.Name = "toolStripMenuItem12";
             toolStripMenuItem12.Size = new Size(180, 22);
-            toolStripMenuItem12.Text = "11";
+            toolStripMenuItem12.Text = "12";
             toolStripMenuItem12.Click += toolStripMenuItem12_Click;
             // 
             // toolStripMenuItem13
             // 
             toolStripMenuItem13.Name = "toolStripMenuItem13";
             toolStripMenuItem13.Size = new Size(180, 22);
-            toolStripMenuItem13.Text = "12";
+            toolStripMenuItem13.Text = "13";
             toolStripMenuItem13.Click += toolStripMenuItem13_Click;
             // 
             // toolStripMenuItem14
             // 
             toolStripMenuItem14.Name = "toolStripMenuItem14";
             toolStripMenuItem14.Size = new Size(180, 22);
-            toolStripMenuItem14.Text = "13";
+            toolStripMenuItem14.Text = "14";
             toolStripMenuItem14.Click += toolStripMenuItem14_Click;
             // 
             // toolStripMenuItem15
             // 
             toolStripMenuItem15.Name = "toolStripMenuItem15";
             toolStripMenuItem15.Size = new Size(180, 22);
-            toolStripMenuItem15.Text = "14";
+            toolStripMenuItem15.Text = "15";
             toolStripMenuItem15.Click += toolStripMenuItem15_Click;
             // 
             // toolStripMenuItem16
             // 
             toolStripMenuItem16.Name = "toolStripMenuItem16";
             toolStripMenuItem16.Size = new Size(180, 22);
-            toolStripMenuItem16.Text = "15";
+            toolStripMenuItem16.Text = "16";
             toolStripMenuItem16.Click += toolStripMenuItem16_Click;
-            // 
-            // toolStripMenuItem17
-            // 
-            toolStripMenuItem17.Name = "toolStripMenuItem17";
-            toolStripMenuItem17.Size = new Size(180, 22);
-            toolStripMenuItem17.Text = "16";
-            toolStripMenuItem17.Click += toolStripMenuItem17_Click;
             // 
             // Form1
             // 
@@ -187,6 +179,7 @@ namespace proyecto_2_lenguaje_de_programacion2
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -211,6 +204,5 @@ namespace proyecto_2_lenguaje_de_programacion2
         private ToolStripMenuItem toolStripMenuItem14;
         private ToolStripMenuItem toolStripMenuItem15;
         private ToolStripMenuItem toolStripMenuItem16;
-        private ToolStripMenuItem toolStripMenuItem17;
     }
 }

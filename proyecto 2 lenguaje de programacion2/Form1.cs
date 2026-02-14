@@ -104,6 +104,10 @@ namespace proyecto_2_lenguaje_de_programacion2
             fifteen.Show();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
