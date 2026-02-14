@@ -16,5 +16,6 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+
     }
 }

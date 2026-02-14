@@ -16,5 +16,15 @@ namespace proyecto_2_lenguaje_de_programacion2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            progressBar1.Increment(100);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            progressBar1.Increment(-100);
+        }
     }
 }
